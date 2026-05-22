@@ -1,0 +1,47 @@
+PHASE 1 — Rust Foundations (Now → 3 months)
+Project 1 ✅ Calculator — done
+Project 2 — Caesar cipher (chars, loops)
+Project 3 — Word frequency counter (HashMaps, file I/O)
+Project 4 — Password generator (random, vectors, structs)
+Project 5 — Simple port scanner (networking, error handling)
+By end of phase 1:
+
+Comfortable with core Rust
+5 real GitHub projects
+Understanding of ownership
+
+
+PHASE 2 — Intermediate Rust (3 months → 9 months)
+Project 6 — File encryptor (crypto, external crates)
+Project 7 — Basic shell/command runner
+Project 8 — HTTP client from scratch
+Project 9 — Simple key-value database
+Project 10 — Transformer layer in Rust (ML meets Rust)
+By end of phase 2:
+
+Intermediate Rust
+Real cybersecurity tools
+ML foundations in Rust
+Strong GitHub profile
+
+
+PHASE 3 — Advanced (9 months → 18 months)
+Project 11 — Port scanner with threading
+Project 12 — Network packet analyzer
+Project 13 — Custom shell with pipes
+Project 14 — ML inference engine in Rust
+Project 15 — Contribute to real open source repo
+By end of phase 3:
+
+Advanced Rust
+Real open source contributions
+DarkVision worthy GitHub profile
+
+
+PHASE 4 — Expert (18 months → 36 months)
+
+Build your cybersecurity terminal
+Contribute to HuggingFace Candle
+Write your own ML framework components
+Build something people actually use
+Walk into any company at 18 with proof

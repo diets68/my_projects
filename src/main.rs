@@ -1,0 +1,39 @@
+use std::io;
+
+
+fn input_2() -> f64 {
+    let mut input_2 = String::new();
+    println!("enter second number");
+    io::stdin().read_line(&mut input_2).expect("failed to read");
+    input_2.trim().parse().expect("invalid numbers")   
+}
+ 
+fn input_1() -> f64 {
+    let mut input_1 = String::new();
+    println!("enter first number");
+    io::stdin().read_line(&mut input_1).expect("failed to read");
+    input_1.trim().parse().expect("invalid numbers")
+}
+
+fn choose_operation(x: f64, y: f64) {
+    println!("choose operation");
+    println!("+ - / *");
+    let mut operator = String::new();
+    io::stdin().read_line(&mut operator).expect("failed to read");
+    let operator = operator.trim();
+    if operator == "+" {
+        println!("{} + {} = {}", x, y, x + y);
+    } else if operator == "-" {
+        println!("{} - {} = {}", x, y, x - y);
+    } else if operator == "*" {
+        println!("{} * {} = {}", x, y, x * y);
+    } else {
+        println!("{} / {} = {}", x, y, x / y);
+    }
+}
+
+fn main() {
+    let x = input_1();
+    let y = input_2();
+    choose_operation(x, y);
+} 
