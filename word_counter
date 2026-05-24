@@ -1,0 +1,30 @@
+use std::io;
+use std::collections::HashMap;
+
+fn input(prompt: &str) -> String {
+    println!("{}", prompt);
+    let mut input = String::new();
+    let stdin = io::stdin();
+    stdin.read_line(&mut input).expect("failed to read line");
+    input.trim().to_string()
+}
+
+fn counter(text: &str) -> HashMap<String, u32>{
+    let mut map = HashMap::new();
+
+    for word in text.split_whitespace(){
+        let word = word.to_lowercase();
+        *map.entry(word).or_insert(0) += 1;
+    }
+    map
+}
+
+fn main(){
+    let text = input("enter text");
+    let counts = counter(&text);
+
+    for (word, count) in &counts{
+        println!("{}: {}", word, count );
+    }
+
+}
