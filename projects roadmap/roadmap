@@ -2,7 +2,7 @@ PHASE 1 — Rust Foundations (Now → 3 months)
 Project 1 ✅ Calculator — done
 Project 2 ✅ Caesar cipher (chars, loops)
 Project 3 ✅ Word frequency counter (HashMaps, file I/O)
-Project 4 — Password generator (random, vectors, structs)
+Project 4 ✅ Password generator (random, vectors, structs)
 Project 5 — Simple port scanner (networking, error handling)
 By end of phase 1:
 
