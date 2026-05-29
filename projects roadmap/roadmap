@@ -1,47 +1,71 @@
-PHASE 1 — Rust Foundations (Now → 3 months)
-Project 1 ✅ Calculator — done
-Project 2 ✅ Caesar cipher (chars, loops)
-Project 3 ✅ Word frequency counter (HashMaps, file I/O)
-Project 4 ✅ Password generator (random, vectors, structs)
-Project 5 — Simple port scanner (networking, error handling)
-By end of phase 1:
+DIETRICH STOFFBERG — RUST + ML + CYBERSECURITY ROADMAP
+PHASE 1 — Rust Foundations (Complete ✅)
 
-Comfortable with core Rust
-5 real GitHub projects
-Understanding of ownership
+Project 1 ✅ Calculator
+Project 2 ✅ Caesar cipher
+Project 3 ✅ Word frequency counter
+Project 4 ✅ Password generator
+Project 5 ✅ Port scanner with threading
 
+Skills: Variables, loops, vectors, HashMaps, structs, file I/O, networking, threads, closures, ownership basics
 
-PHASE 2 — Intermediate Rust (3 months → 9 months)
-Project 6 — File encryptor (crypto, external crates)
-Project 7 — Basic shell/command runner
-Project 8 — HTTP client from scratch
-Project 9 — Simple key-value database
-Project 10 — Transformer layer in Rust (ML meets Rust)
-By end of phase 2:
+PHASE 2 — Core Rust Mastery (Now → 2 months)
+Pure Rust depth before external libraries.
 
-Intermediate Rust
-Real cybersecurity tools
-ML foundations in Rust
-Strong GitHub profile
+Project 6 — File reverser/XOR encryptor (no external crates)
+Project 7 — CLI tool with argument parsing
+Project 8 — Mini text editor
+Project 9 — Custom error types and Result handling
+Project 10 — Lifetimes and borrowing deep dive project
 
+Skills: Real error handling, lifetimes, references, traits basics
 
-PHASE 3 — Advanced (9 months → 18 months)
-Project 11 — Port scanner with threading
-Project 12 — Network packet analyzer
-Project 13 — Custom shell with pipes
-Project 14 — ML inference engine in Rust
-Project 15 — Contribute to real open source repo
-By end of phase 3:
+PHASE 3 — ML Foundations in Rust (2 → 5 months)
+Your ML knowledge meets Rust.
 
-Advanced Rust
-Real open source contributions
-DarkVision worthy GitHub profile
+Project 11 — Linear regression from scratch in Rust
+Project 12 — Neural network layer (forward + backward)
+Project 13 — Tensor library basics (using ndarray)
+Project 14 — MNIST classifier in pure Rust
+Project 15 — Attention mechanism / transformer head
 
+Skills: ML math in Rust, performance, gradient descent, backprop
 
-PHASE 4 — Expert (18 months → 36 months)
+PHASE 4 — Working with External Crates (5 → 7 months)
 
-Build your cybersecurity terminal
-Contribute to HuggingFace Candle
-Write your own ML framework components
-Build something people actually use
-Walk into any company at 18 with proof
+Project 16 — AES file encryptor (real one with aes-gcm)
+Project 17 — Password manager CLI
+Project 18 — HTTP client with reqwest
+Project 19 — JSON parser/API client (serde)
+Project 20 — Simple key-value database
+
+Skills: Reading docs, async, serialization, real crypto
+
+PHASE 5 — Advanced ML in Rust (7 → 12 months)
+
+Project 21 — Full transformer from scratch
+Project 22 — Train a small language model in Rust
+Project 23 — Inference engine for pretrained models
+Project 24 — Quantization and optimization
+Project 25 — ML inference with GPU (Candle/burn)
+
+Skills: Production ML, GPU programming basics, optimization
+
+PHASE 6 — Cybersecurity Tools (12 → 16 months)
+
+Project 26 — Network packet sniffer
+Project 27 — Advanced port scanner with banner grabbing
+Project 28 — Custom shell with pipes
+Project 29 — Vulnerability scanner
+Project 30 — ML-powered anomaly detector (ML + cyber crossover)
+
+Skills: Low-level networking, system programming, security concepts
+
+PHASE 7 — Open Source + Original Work (16 → 24 months)
+
+Project 31 — Contribute to HuggingFace Candle
+Project 32 — Contribute to a major Rust crate
+Project 33 — Publish your own crate
+Project 34 — Build something people actually use
+Project 35 — Original ML/security research
+
